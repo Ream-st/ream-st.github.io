@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ream-st/Website/main/assets/logo.svg" height="100" alt="Ream.st Logo">
+  <img src="https://raw.githubusercontent.com/Ream-st/Website/main/public/assets/logo.svg" height="100" alt="Ream.st Logo">
 </p>
 
 # GitHub Pages Redirect

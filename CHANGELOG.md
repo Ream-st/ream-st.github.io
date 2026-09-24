@@ -5,6 +5,12 @@ All notable changes to ream-st.github.io are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.2
+
+### Fixed
+- `README.md`/`CONTRIBUTING.md` load the Ream.st logo straight from the Website repo; Website v3.0.0 moved it
+  from `assets/logo.svg` to `public/assets/logo.svg`, so the links now point there.
+
 ## v1.0.1
 
 ### Fixed

@@ -5,6 +5,16 @@ All notable changes to ream-st.github.io are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.15
+
+### Added
+
+- A `staging` branch between `test` and `main`: releases are made on `test`, then go `test` → `staging` → `main` through pull requests, and nothing is pushed to `staging` or `main` directly
+
+### Changed
+
+- `commit.sh`/`commit.bat` refuse to run on `staging` as well as `main`, and after tagging print the push command and both pull requests to open. CONTRIBUTING's Branches section is now "Branches and going live", and the README's Versioning section points to it
+
 ## v26.11.06
 
 ### Added
